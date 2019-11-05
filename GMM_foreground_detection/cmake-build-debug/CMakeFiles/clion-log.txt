@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lansy/CLionProjects/GMM_foreground_detection
+-- Found OpenCV: /usr/local (found version "4.0.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug
