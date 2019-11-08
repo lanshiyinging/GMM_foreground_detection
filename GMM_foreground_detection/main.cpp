@@ -17,7 +17,7 @@ void showResult(Mat img1, Mat img2){
     img2.copyTo(show(r2));
     namedWindow("result", WINDOW_FREERATIO);
     imshow("result", show);
-    waitKey(200);
+    waitKey(100);
 }
 
 string getPath(string base_path, int count){
@@ -33,66 +33,45 @@ string getPath(string base_path, int count){
 }
 
 int main() {
+
     int train_num = 200, test_num = 187, total_num = 287;
-    Mat frame, mask, dst;
+    Mat frame, mask;
     GMM gmm;
     string base_path = "/Users/lansy/CLionProjects/GMM_foreground_detection/WavingTrees/";
     int count = 0;
-    while(count < train_num) {
-        string img_path;
-        img_path = getPath(base_path, count);
-        frame = imread(img_path, 0);
-
-        if (count == 0) {
-            gmm.init(frame);
-            cout << "Train frames ......... " << train_num << endl;
-        } else
-            gmm.train(frame);
-        count++;
-    }
-    cout << "Complete training ..... " << endl;
-    gmm.getB(frame.rows, frame.cols);
-    cout << "Testing ............... " << endl;
-
-    count = 0;
     while(count < total_num){
         string img_path;
         img_path = getPath(base_path, count);
-        Mat img = imread(img_path, 1);
-        frame = imread(img_path, 0);
-        gmm.test(frame);
-        mask = gmm.getMask();
-        morphologyEx(mask, mask, MORPH_OPEN, Mat());
-        showResult(frame, mask);
-        count ++;
-    }
-    /*
-    while(count < total_num){
-        string img_path;
-        img_path = getPath(base_path, count);
-        frame = imread(img_path, 0);
+        frame = imread(img_path);
 
         if(count == 0){
             gmm.init(frame);
-            cout << "Train frames ......... " << train_mum << endl;
+            cout << "Train frames ......... " << train_num << endl;
         }
-        else if(count < train_mum){
+        else if(count < train_num){
             gmm.train(frame);
         }
-        if(count == train_mum){
+        if(count == train_num){
             cout << "Complete training ..... " << endl;
             gmm.getB(frame.rows, frame.cols);
             cout << "Testing ............... " << endl;
             cout << "Test frames ........... " << test_num << endl;
         }
-        //if(count >= train_mum && count < total_num){
-        if(count == 247){
+        if(count >= train_num && count < total_num){
+        //if(count == 247){
             gmm.test(frame);
+            /*
             mask = gmm.getMask();
             morphologyEx(mask, mask, MORPH_OPEN, Mat());
+            medianBlur(mask, mask, 7);
             showResult(frame, mask);
+             */
         }
+        mask = gmm.getMask();
+        morphologyEx(mask, mask, MORPH_OPEN, Mat());
+        medianBlur(mask, mask, 7);
+        showResult(frame, mask);
         count ++;
-    }*/
+    }
     return 0;
 }

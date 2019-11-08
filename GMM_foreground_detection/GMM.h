@@ -8,16 +8,16 @@
 #include <cmath>
 #include <vector>
 #include "opencv2/opencv.hpp"
-#define GAUSSIAN_NUM 5
+#define GAUSSIAN_NUM 3
 using namespace cv;
 using namespace std;
 
 class GMM {
 public:
-    float init_sd = 6;
+    float init_sd = 18;
     float threshold = 0.75;
-    float alpha = 0.005;
-    float D = 2.5;
+    float alpha = 0.05;
+    float D = 2;
     Mat weight[GAUSSIAN_NUM];
     Mat mean[GAUSSIAN_NUM];
     Mat sd[GAUSSIAN_NUM];  //standard deviation

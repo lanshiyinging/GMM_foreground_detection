@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lansy/CLionProjects/GMM_foreground_detection
+CMAKE_SOURCE_DIR = /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GMM_foreground_detection.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/GMM_foreground_detection.dir/flags.make
 
 CMakeFiles/GMM_foreground_detection.dir/main.cpp.o: CMakeFiles/GMM_foreground_detection.dir/flags.make
 CMakeFiles/GMM_foreground_detection.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GMM_foreground_detection.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMM_foreground_detection.dir/main.cpp.o -c /Users/lansy/CLionProjects/GMM_foreground_detection/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GMM_foreground_detection.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMM_foreground_detection.dir/main.cpp.o -c /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/main.cpp
 
 CMakeFiles/GMM_foreground_detection.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMM_foreground_detection.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lansy/CLionProjects/GMM_foreground_detection/main.cpp > CMakeFiles/GMM_foreground_detection.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/main.cpp > CMakeFiles/GMM_foreground_detection.dir/main.cpp.i
 
 CMakeFiles/GMM_foreground_detection.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMM_foreground_detection.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lansy/CLionProjects/GMM_foreground_detection/main.cpp -o CMakeFiles/GMM_foreground_detection.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/main.cpp -o CMakeFiles/GMM_foreground_detection.dir/main.cpp.s
 
 CMakeFiles/GMM_foreground_detection.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/GMM_foreground_detection.dir/main.cpp.o.provides.build: CMakeFiles/GM
 
 CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o: CMakeFiles/GMM_foreground_detection.dir/flags.make
 CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o: ../GMM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o -c /Users/lansy/CLionProjects/GMM_foreground_detection/GMM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o -c /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.cpp
 
 CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lansy/CLionProjects/GMM_foreground_detection/GMM.cpp > CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.cpp > CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.i
 
 CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lansy/CLionProjects/GMM_foreground_detection/GMM.cpp -o CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.cpp -o CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.s
 
 CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o.requires:
 
@@ -161,7 +161,7 @@ GMM_foreground_detection: /usr/local/lib/libopencv_photo.4.0.1.dylib
 GMM_foreground_detection: /usr/local/lib/libopencv_imgproc.4.0.1.dylib
 GMM_foreground_detection: /usr/local/lib/libopencv_core.4.0.1.dylib
 GMM_foreground_detection: CMakeFiles/GMM_foreground_detection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GMM_foreground_detection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GMM_foreground_detection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GMM_foreground_detection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +179,6 @@ CMakeFiles/GMM_foreground_detection.dir/clean:
 .PHONY : CMakeFiles/GMM_foreground_detection.dir/clean
 
 CMakeFiles/GMM_foreground_detection.dir/depend:
-	cd /Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lansy/CLionProjects/GMM_foreground_detection /Users/lansy/CLionProjects/GMM_foreground_detection /Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug /Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug /Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/CMakeFiles/GMM_foreground_detection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/CMakeFiles/GMM_foreground_detection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GMM_foreground_detection.dir/depend
 

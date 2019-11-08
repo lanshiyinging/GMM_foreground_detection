@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lansy/CLionProjects/GMM_foreground_detection/GMM.cpp" "/Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o"
-  "/Users/lansy/CLionProjects/GMM_foreground_detection/main.cpp" "/Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/CMakeFiles/GMM_foreground_detection.dir/main.cpp.o"
+  "/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.cpp" "/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/CMakeFiles/GMM_foreground_detection.dir/GMM.cpp.o"
+  "/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/main.cpp" "/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/CMakeFiles/GMM_foreground_detection.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

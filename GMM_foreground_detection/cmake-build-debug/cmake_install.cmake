@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lansy/CLionProjects/GMM_foreground_detection
+# Install script for directory: /Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lansy/CLionProjects/GMM_foreground_detection/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

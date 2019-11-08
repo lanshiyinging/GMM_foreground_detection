@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/lansy/CLionProjects/GMM_foreground_detection/GMM.cpp
+/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.cpp
 GMM.h
-/Users/lansy/CLionProjects/GMM_foreground_detection/GMM.h
+/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.h
 
-/Users/lansy/CLionProjects/GMM_foreground_detection/GMM.h
+/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.h
 iostream
 -
 cmath
@@ -18,9 +18,9 @@ cmath
 vector
 -
 opencv2/opencv.hpp
-/Users/lansy/CLionProjects/GMM_foreground_detection/opencv2/opencv.hpp
+/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/opencv2/opencv.hpp
 
-/Users/lansy/CLionProjects/GMM_foreground_detection/main.cpp
+/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/main.cpp
 iostream
 -
 opencv2/opencv.hpp
@@ -28,7 +28,7 @@ opencv2/opencv.hpp
 string.h
 -
 GMM.h
-/Users/lansy/CLionProjects/GMM_foreground_detection/GMM.h
+/Users/lansy/Desktop/视频分析/project/GMM_foreground_detection/GMM_foreground_detection/GMM.h
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
