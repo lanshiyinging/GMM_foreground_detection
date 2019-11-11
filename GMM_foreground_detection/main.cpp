@@ -37,7 +37,7 @@ int main() {
     int train_num = 200, test_num = 187, total_num = 287;
     Mat frame, mask;
     GMM gmm;
-    string base_path = "/Users/lansy/CLionProjects/GMM_foreground_detection/WavingTrees/";
+    string base_path = "../WavingTrees/";
     int count = 0;
     while(count < total_num){
         string img_path;
